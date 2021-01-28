@@ -10,7 +10,7 @@ const defaultState = {
     stopNode: [10, 35]
 }
 
-export default function Reducer(state = defaultState, action)  {
+export default (state = defaultState, action) => {
     if (action.type === 'set_mouseClick_true' && !state.visitingAnimation) {
         const newState = JSON.parse(JSON.stringify(state));
         newState.mouseIsClicked = true;
