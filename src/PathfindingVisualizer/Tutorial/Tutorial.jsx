@@ -436,7 +436,7 @@ export default class Tutorial extends Component {
                 If you want to access this tutorial again, click on Tutorial
                 icon in the top left corner of your screen. If you want to see
                 the source code for this application, check out the github here {" "}
-                <a href="#" >
+                <a href="https://github.com/Wjpayne/path-visualization" >
                   github
                 </a>
                 .
